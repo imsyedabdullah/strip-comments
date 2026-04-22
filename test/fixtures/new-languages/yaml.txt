@@ -1,0 +1,14 @@
+# Application config
+name: "my-app"
+version: "1.0.0"
+
+# Database section
+database:
+  host: "localhost"
+  url: "postgres://user:pass@host/db#schema"  # trailing comment
+  notes: "contains # sign"
+
+# Feature flags
+features:
+  - name: "auth"    # enabled
+  - name: "search"  # disabled

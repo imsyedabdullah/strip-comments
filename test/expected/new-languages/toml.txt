@@ -1,0 +1,12 @@
+
+title = "TOML Example"
+
+[owner]
+name = "Tom Preston-Werner"
+
+url = "https://example.com/#fragment"
+notes = "value with # inside"
+
+[database]
+enabled = true  
+ports = [ 8000, 8001, 8002 ]

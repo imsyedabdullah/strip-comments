@@ -1,0 +1,14 @@
+/*
+Package demo shows comment handling.
+*/
+package demo
+
+import "fmt" // standard library
+
+// Greet prints a greeting.
+// Multi-line doc comment.
+func Greet(name string) {
+	url := "https://golang.org/*not-a-comment*/"
+	pattern := "//also-not-a-comment"
+	fmt.Println("Hello,", name, url, pattern) // trailing
+}

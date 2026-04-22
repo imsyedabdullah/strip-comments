@@ -1,0 +1,11 @@
+package demo
+
+import "fmt" 
+
+
+
+func Greet(name string) {
+	url := "https://golang.org/*not-a-comment*/"
+	pattern := "//also-not-a-comment"
+	fmt.Println("Hello,", name, url, pattern) 
+}

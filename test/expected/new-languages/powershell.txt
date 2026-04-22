@@ -1,0 +1,7 @@
+
+function Get-Greeting {
+    param([string]$Name)
+    $url = "https://example.com/#frag"  
+    $pattern = "#not-a-comment"
+    Write-Output "Hello, $Name" 
+}

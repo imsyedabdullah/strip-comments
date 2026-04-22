@@ -1,0 +1,25 @@
+//! Crate-level doc comment
+//! describing the crate.
+
+/// Adds two numbers.
+///
+/// # Examples
+///
+/// ```
+/// let r = mylib::add(2, 3);
+/// ```
+pub fn add(a: i32, b: i32) -> i32 {
+    // inline comment
+    let url = "https://example.com/*not-a-comment*/";
+    let pattern = "/*still*/ not a comment";
+    a + b /* trailing block */
+}
+
+/*
+ * Multi-line block comment
+ * describing the struct below.
+ */
+pub struct Point {
+    pub x: f64,  // x coordinate
+    pub y: f64,  // y coordinate
+}

@@ -1,0 +1,14 @@
+
+name: "my-app"
+version: "1.0.0"
+
+
+database:
+  host: "localhost"
+  url: "postgres://user:pass@host/db#schema"  
+  notes: "contains # sign"
+
+
+features:
+  - name: "auth"    
+  - name: "search"  

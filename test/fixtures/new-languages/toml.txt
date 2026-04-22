@@ -1,0 +1,12 @@
+# Top-level comment
+title = "TOML Example"
+
+[owner]
+name = "Tom Preston-Werner"
+# comment between entries
+url = "https://example.com/#fragment"
+notes = "value with # inside"
+
+[database]
+enabled = true  # trailing comment
+ports = [ 8000, 8001, 8002 ]

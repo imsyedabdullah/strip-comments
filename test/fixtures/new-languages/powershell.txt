@@ -1,0 +1,13 @@
+<#
+.SYNOPSIS
+    Greets the user.
+.DESCRIPTION
+    This is a multi-line
+    block comment.
+#>
+function Get-Greeting {
+    param([string]$Name)
+    $url = "https://example.com/#frag"  # trailing
+    $pattern = "#not-a-comment"
+    Write-Output "Hello, $Name" # greet
+}
